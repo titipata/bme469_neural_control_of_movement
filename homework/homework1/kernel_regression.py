@@ -1,4 +1,17 @@
+# see more at http://scikit-learn.org/stable/modules/metrics.html
+
 import numpy as np
+
+
+def cosine_kernel(x, y):
+    return np.dot(x.T, y)/(np.linalg.norm(x)*np.linalg.norm(y))
+
+def linear_kernel(x, y, gamma=0.5):
+    """
+    Compute radial basis kernel of two vector
+    k(x, y) = exp(-x.T*y)
+    """
+    return np.dot(x.T, y)
 
 
 def rbf_kernel(x, y, gamma=0.5):
@@ -33,5 +46,5 @@ def compute_kernel(X, Y):
     K = np.zeros((X.shape[0], Y.shape[0]))
     for i in range(len(X)):
         for j in range(len(Y)):
-            K[i, j] = rbf_kernel(X[i], Y[j])
+            K[i, j] = rbf_kernel(X[i], Y[j]) # choose kernel here
     return K

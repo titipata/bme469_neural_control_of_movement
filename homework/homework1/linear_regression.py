@@ -1,3 +1,5 @@
+# example for 1 feature and 1 output
+
 import numpy as np
 
 
@@ -11,6 +13,7 @@ def compute_grad(X, y, theta):
         theta_grad[0] += (1./(m))*((theta[0] + theta[1]*X[i]) - y[i])
         theta_grad[1] += (1./(m))*((theta[0] + theta[1]*X[i]) - y[i])*X[i]
     return theta_grad
+
 
 def compute_cost(X, y, theta):
     """
