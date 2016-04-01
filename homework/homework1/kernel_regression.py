@@ -6,6 +6,7 @@ import numpy as np
 def cosine_kernel(x, y):
     return np.dot(x.T, y)/(np.linalg.norm(x)*np.linalg.norm(y))
 
+
 def linear_kernel(x, y, gamma=0.5):
     """
     Compute radial basis kernel of two vector
