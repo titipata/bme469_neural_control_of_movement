@@ -1,20 +1,11 @@
 # Final Project
 
-this folder is a place that we put all code to reproduce papers decribed below.
+this folder is a place that we put all code to reproduce papers described below.
 
 
 ## Proposal
 
-Understanding how the timing of actions is controlled before they reach the motor cortex is crucial in movement planning.
-
-Past experiments have suggested that medial prefrontal cortex (dmPFC) is involved in the timing of actions and the top-down control of motor system in the motor cortex (MC). This process ocurrs by suppressing responses during movement delays.
-
-Here we want to replicate the findings by Nandakumar et. al. [1] and Bekolay et. al. [2] using the nengo simulation system [3]. [1] decribes neural activity in dmPFC and MC using time-series Principle Components Analysis (PCA) across neural populations. They then decribe roles of delay-activity in dmPFC and motor cortex where they propose the top-down control model between both areas. [2]  proposes model to simulate spikes using double-integrator network as a concrete mechanism that would replicate the results in [1].
-
-Concretely, I'll use `nengo` [3], a Python library to simulate spikes trains, to simulate the model described in [2] which explains the results in [1].
-
-**Current status**
-I have already set up the software tools and simple experiments. I am currently requesting the experimental data from the authors in [1] and they have agreed to provide it.
+See project proposal in `proposal_manuscript` folder.
 
 
 ## References
@@ -32,10 +23,11 @@ in order to install all dependencies
 (assume you have default packages from Anaconda).
 
 - [nengo](https://github.com/nengo/nengo)
+- [neo](https://pythonhosted.org/neo/index.html)
 - [h5py](http://docs.h5py.org/en/latest/build.html)
 - [deepdish](https://github.com/uchicago-cs/deepdish)
 
-See structure of `h5` file by using `deepdish` i.e. `$ ddls <file_name>.h5`
+**note** see structure of `h5` file by using `deepdish` i.e. `$ ddls <file_name>.h5`
 
 
 ## Issues related to project
