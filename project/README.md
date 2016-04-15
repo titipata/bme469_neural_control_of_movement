@@ -14,7 +14,7 @@ Here we want to replicate the findings by Nandakumar et. al. [1] and Bekolay et.
 Concretely, I'll use `nengo` [3], a Python library to simulate spikes trains, to simulate the model described in [2] which explains the results in [1].
 
 **Current status**
-I have already set up the software tools and simple experiments. I am currently requesting the experimental data from the authors in [1] and they have agree to provide it.
+I have already set up the software tools and simple experiments. I am currently requesting the experimental data from the authors in [1] and they have agreed to provide it.
 
 
 ## References
@@ -33,6 +33,10 @@ in order to install all dependencies
 
 - [nengo](https://github.com/nengo/nengo)
 - [h5py](http://docs.h5py.org/en/latest/build.html)
+- [deepdish](https://github.com/uchicago-cs/deepdish)
+
+See structure of `h5` file by using `deepdish` i.e. `$ ddls <file_name>.h5`
+
 
 ## Issues related to project
 
