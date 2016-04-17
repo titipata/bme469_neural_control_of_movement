@@ -5,7 +5,7 @@ this folder is a place that we put all code to reproduce papers described below.
 
 ## Proposal
 
-See project proposal in `proposal_manuscript` folder.
+See project proposal `tex` and `pdf` in `proposal_manuscript` folder.
 
 
 ## References
