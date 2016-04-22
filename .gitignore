@@ -2,7 +2,7 @@
 
 # local folder
 data/
-*.ipynb
+
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
