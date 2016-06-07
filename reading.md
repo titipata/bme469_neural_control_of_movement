@@ -30,3 +30,11 @@
 - [Shadmehr et al, Reward-Dependent Modulation of Movement Variability](http://www.jneurosci.org/cgi/pmidlookup?view=long&pmid=25740529)
 - [Waelti et al, Dopamine responses comply with basic assumptions of formal learning theory](http://www.nature.com/nature/journal/v412/n6842/abs/412043a0.html)
 - [Aronov et al, A Specialized Forebrain Circuit for Vocal Babbling in the Juvenile Songbird](http://homes.mpimf-heidelberg.mpg.de/~mhelmsta/pdf/2008%20Aronov%20Andalman%20Fee%20Science.pdf)
+
+
+--------------------
+
+## Supplemental Reading
+
+- Richard S. Sutton and Andrew G. Barto, _Reinforcement Learning: An Introduction_, 2012 [pdf](http://people.inf.elte.hu/lorincz/Files/RL_2006/SuttonBook.pdf)
+-  Christopher Bishop, _Pattern Recognition and Machine Learning_, 2006 [pdf](http://research.microsoft.com/en-us/um/people/cmbishop/prml/)
